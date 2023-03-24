@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+        <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+    <meta charset = "UTF-8" />
+<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h2 class="h2">SURVEY FORM</h2>
+    <h4  class="h4">Fill this form to Join us!</h4>
+    <form action="url" autocomplete="off">
+      <fieldset>
+      <div class="input">
+        <label><b>Name</b></label>
+        <input type="text" name="Name" placeholder="Enter Full Name" required/><br/>
+        <br/>
+        <label><b>Email</b></label>
+        <input type="email" name"email" placeholder="johndue@gmail.com"required/><br/>
+        <br/>
+        <label><b>Age</b></label>
+        <input type="number" name"age"><br/>
+        <br/>
+        <label><b>Gender</b></label><br>
+
+          <ul class="list">
+            <input type="radio" name="gender" value="male"/>Male<br/>
+            <input type="radio" name="gender" value="female"/>Female<br/>
+          </ul>
+
+        <label><b>Are you Interested to join our team? </b></label><br>
+
+        <ul class="list">
+        <input type="radio" name="radio" value="yes"/>Not Sure<br>
+        <input type="radio" name="radio" value="no"/>Definitely, Yes!<br>
+        </ul>
+ <br>
+ <fieldset>
+          <b>From where did you hear about us?</b><br>
+          <br>
+             <label>option</label>
+             <select id = "myList">
+               <option value = "1">Instagram</option>
+               <option value = "2">Facebook Post</option>
+               <option value = "3">Youtube Ad</option>
+               <option value = "4">Other</option>
+             </select>
+          <p>
+        <label><b>Which genre interests you the most?</b></label>
+    </p>
+    <input type="radio"name="continent"value="continent" />Fiction<br />
+    <input type="radio"name="continent"value="continent" />Fantasy<br />
+    <input type="radio"name="continent"value="continent" />Classics<br />
+    <input type="radio"name="continent"value="continent" />Non-Fiction<br />
+    <input type="radio"name="continent"value="continent" />Poetry<br />
+    <input type="radio"name="continent"value="continent" />Biography<br />
+    <hr>
+    <p>
+        <label><b>Which is your favourite book?</b></label>
+    </p>
+    <input type="radio"name="code"value="1" />The Book Thief<br />
+    <input type="radio"name="code"value="2" />The Alchemist<br />
+    <input type="radio"name="code"value="3" />Ikigai<br />
+    <input type="radio"name="code"value="4" />Pride & Prejudice<br />
+    <input type="radio"name="code"value="5" />The Palace of Illusions<br />
+       <br>
+      </fieldset>
+<div class="label">
+       <label><b>Any comment or suggestion</b></label>
+</div>
+       <br>
+      <div class="list">
+       <textarea></textarea><br>
+      </div>
+       <br>
+       <div class="submit">
+       <input type="submit" value="submit"/><br>
+       </div>
+       <br>
+      </fieldset>
+    </form>
+    <div id="copy">&copy; All rights reserved to Poushali Chakraborty</div>
+  </body>
+</html>
